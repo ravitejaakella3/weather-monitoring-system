@@ -1,4 +1,3 @@
-// models/Config.js
 import { Schema, model } from 'mongoose';
 
 const configSchema = new Schema({
