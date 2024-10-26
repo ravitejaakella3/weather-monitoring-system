@@ -4,7 +4,7 @@ import { fetchWeatherData, checkAlerts } from './weatherController.js';
 import WeatherSummary from '../src/models/WeatherSummary.js';
 import Config from '../src/models/Config.js';
 
-const MONGODB_URI = 'mongodb://localhost:27017';
+const MONGODB_URI = 'mongodb_url';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI)
