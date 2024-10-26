@@ -3,7 +3,7 @@ import WeatherSummary from '../src/models/WeatherSummary.js';
 import Config from '../src/models/Config.js';
 
 // OpenWeatherMap API key and city list
-const apiKey = '3b566dba2aa9b5d8049abd2fc89844c1';
+const apiKey = 'Enter yout API key';
 const cities = ["Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad"];
 
 // Fetch and process weather data for each city
